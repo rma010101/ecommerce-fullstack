@@ -353,7 +353,9 @@ const ProductList = () => {
               <Card 
                 key={product.id}
                 sx={{ 
-                  height: viewMode === 'grid' ? { xs: 720, sm: 780, md: 820 } : 'auto', // Much taller cards to fit all sections
+                  height: 'auto', // Allow dynamic height
+                  minHeight: viewMode === 'grid' ? { xs: 640, sm: 680, md: 720 } : 'auto', // Reduced minimum heights
+                  maxHeight: viewMode === 'grid' ? { xs: 800, sm: 860, md: 920 } : 'auto', // Set maximum heights to prevent excessive growth
                   display: 'flex', 
                   flexDirection: viewMode === 'grid' ? 'column' : { xs: 'column', md: 'row' },
                   transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
@@ -452,10 +454,11 @@ const ProductList = () => {
                     flexDirection: 'column',
                     p: 0
                   }}>                  <CardContent sx={{ 
-                    height: viewMode === 'grid' 
-                      ? { xs: 200, sm: 220, md: 240 } // Reduced content area to make room for price section
+                    minHeight: viewMode === 'grid' 
+                      ? { xs: 180, sm: 200, md: 220 } // Reduced minimum content area to save space
                       : 'auto',
-                    p: { xs: 2, sm: 2.5 }, 
+                    flex: '1 1 auto', // Allow content to grow as needed
+                    p: { xs: 1.5, sm: 2 }, // Reduced padding to save space
                     display: 'flex',
                     flexDirection: viewMode === 'list' && { md: 'row' },
                     justifyContent: 'space-between',
@@ -474,15 +477,16 @@ const ProductList = () => {
                         component="h3" 
                         sx={{ 
                           fontWeight: 700,
-                          mb: 1,
+                          mb: 0.5, // Reduced margin
                           color: 'text.primary',
                           lineHeight: 1.2,
                           height: viewMode === 'grid' ? '2.4em' : 'auto',
-                          display: viewMode === 'grid' ? '-webkit-box' : 'block',
-                          WebkitLineClamp: viewMode === 'grid' ? 2 : 'none',
+                          maxHeight: '2.4em', // Ensure title doesn't grow beyond this
+                          display: '-webkit-box', // Always use webkit-box for consistent truncation
+                          WebkitLineClamp: 2, // Always limit to 2 lines
                           WebkitBoxOrient: 'vertical',
-                          overflow: viewMode === 'grid' ? 'hidden' : 'visible',
-                          fontSize: '1rem'
+                          overflow: 'hidden', // Always hide overflow
+                          fontSize: { xs: '0.9rem', sm: '0.95rem', md: '1rem' } // Responsive font size
                         }}
                       >
                         {product.name}
@@ -493,21 +497,22 @@ const ProductList = () => {
                         variant="body2" 
                         color="text.secondary" 
                         sx={{ 
-                          mb: 1.5,
-                          lineHeight: 1.4,
-                          height: viewMode === 'grid' ? '2.8em' : 'auto',
-                          display: viewMode === 'grid' ? '-webkit-box' : 'block',
-                          WebkitLineClamp: viewMode === 'grid' ? 2 : 3,
+                          mb: 1, // Reduced margin
+                          lineHeight: 1.3, // Reduced line height for compactness
+                          height: viewMode === 'grid' ? '2.6em' : 'auto',
+                          maxHeight: '2.6em', // Prevent description from growing too much
+                          display: '-webkit-box', // Always use webkit-box for consistent truncation
+                          WebkitLineClamp: 2, // Limit to 2 lines for both grid and list
                           WebkitBoxOrient: 'vertical',
                           overflow: 'hidden',
-                          fontSize: '0.875rem'
+                          fontSize: { xs: '0.8rem', sm: '0.85rem', md: '0.875rem' } // Responsive font size
                         }}
                       >
                         {product.description || 'No description available'}
                       </Typography>
 
                       {/* Category */}
-                      <Box sx={{ mb: 2, height: viewMode === 'grid' ? '32px' : 'auto', display: 'flex', alignItems: 'flex-start' }}>
+                      <Box sx={{ mb: 1, height: viewMode === 'grid' ? '28px' : 'auto', display: 'flex', alignItems: 'flex-start' }}>
                         {product.category && (
                           <Chip 
                             label={product.category} 
@@ -515,17 +520,18 @@ const ProductList = () => {
                             size="small" 
                             sx={{ 
                               borderRadius: 2,
-                              fontSize: '0.75rem',
-                              fontWeight: 500
+                              fontSize: '0.7rem', // Slightly smaller font
+                              fontWeight: 500,
+                              height: '24px' // Fixed height for consistency
                             }}
                           />
                         )}
                       </Box>
 
                       {/* Rating */}
-                      <Box display="flex" alignItems="center" gap={1} mb={2} sx={{ height: viewMode === 'grid' ? '24px' : 'auto' }}>
+                      <Box display="flex" alignItems="center" gap={0.5} mb={1} sx={{ height: viewMode === 'grid' ? '20px' : 'auto' }}>
                         <Rating value={4.5} readOnly size="small" precision={0.5} />
-                        <Typography variant="caption" color="text.secondary" fontWeight={500}>
+                        <Typography variant="caption" color="text.secondary" fontWeight={500} sx={{ fontSize: '0.7rem' }}>
                           (24)
                         </Typography>
                       </Box>
@@ -574,17 +580,19 @@ const ProductList = () => {
                   {/* Separate Price Section for Grid View */}
                   {viewMode === 'grid' && (
                     <Box sx={{
-                      p: { xs: 2, sm: 2.5 },
+                      p: { xs: 1.5, sm: 2 }, // Reduced padding to save space
                       pb: 1,
                       borderTop: '1px solid',
                       borderColor: 'divider',
                       backgroundColor: 'rgba(0,0,0,0.02)',
-                      minHeight: '90px', // Increased height to ensure proper spacing
+                      minHeight: '80px', // Reduced from 100px to give more space for actions
+                      height: 'auto', // Allow flexible height
                       display: 'flex',
                       flexDirection: 'column',
                       justifyContent: 'center',
                       alignItems: 'center',
-                      gap: 1
+                      gap: 0.5, // Reduced gap
+                      flexShrink: 0 // Prevent this section from shrinking
                     }}>
                       {/* Price */}
                       <Typography 
@@ -614,14 +622,15 @@ const ProductList = () => {
 
                     {/* Actions */}
                     <Box sx={{ 
-                      p: { xs: 2, sm: 2.5 }, 
+                      p: { xs: 1.5, sm: 2 }, // Reduced padding for better space utilization
                       pt: 1,
                       display: 'flex', 
                       justifyContent: 'space-between',
                       alignItems: 'center',
                       gap: 1,
-                      height: { xs: '90px', md: '100px' }, // Increased height for buttons to be fully visible
-                      minHeight: { xs: '90px', md: '100px' },
+                      minHeight: { xs: '80px', md: '90px' }, // Reduced minimum height
+                      height: 'auto', // Allow flexible height
+                      flexShrink: 0, // Prevent this section from shrinking
                       borderTop: '1px solid',
                       borderColor: 'divider',
                       backgroundColor: 'rgba(0,0,0,0.02)', // Subtle background to separate actions
@@ -689,13 +698,14 @@ const ProductList = () => {
                         disabled={product.quantity === 0}
                         onClick={(e) => handleQuickAddToCart(product, e)}
                         sx={{ 
-                          borderRadius: 1, // More rectangular (less rounded)
+                          borderRadius: 1.5, // Slightly more rounded
                           textTransform: 'none',
                           fontWeight: 600,
-                          px: { xs: 2, sm: 2.5, md: 3 }, // Responsive horizontal padding
-                          py: { xs: 1.2, sm: 1.4, md: 1.5 }, // Responsive vertical padding for more rectangular shape
-                          minWidth: { xs: '120px', sm: '130px', md: '140px' }, // Ensure consistent minimum width
-                          height: { xs: '40px', sm: '42px', md: '44px' }, // Fixed height for rectangular appearance
+                          px: { xs: 1.5, sm: 2, md: 2.5 }, // Responsive horizontal padding
+                          py: { xs: 1, sm: 1.2, md: 1.3 }, // Responsive vertical padding
+                          minWidth: { xs: '110px', sm: '120px', md: '130px' }, // Slightly smaller minimum width
+                          height: { xs: '36px', sm: '38px', md: '40px' }, // Slightly smaller fixed height
+                          fontSize: { xs: '0.8rem', sm: '0.85rem', md: '0.9rem' }, // Responsive font size
                           background: 'linear-gradient(45deg, #667eea 30%, #764ba2 90%)',
                           '&:hover': {
                             background: 'linear-gradient(45deg, #5a67d8 30%, #6b46c1 90%)',
