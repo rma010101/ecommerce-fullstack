@@ -1,0 +1,22 @@
+{
+  "name": "MacBook Pro 14-inch",
+  "description": "Apple MacBook Pro with M3 chip, 14-inch Liquid Retina XDR display, 16GB unified memory, and 512GB SSD storage. Perfect for professionals and creatives.",
+  "price": 1999.99,
+  "category": {
+    "name": "Laptops",
+    "description": "High-performance laptops and notebooks"
+  },
+  "stockQuantity": 25,
+  "sku": "MBP-M3-14-512",
+  "brand": "Apple",
+  "tags": ["laptop", "macbook", "m3-chip", "professional", "apple", "ssd"],
+  "specifications": {
+    "processor": "Apple M3 chip",
+    "memory": "16GB unified memory",
+    "storage": "512GB SSD",
+    "display": "14-inch Liquid Retina XDR",
+    "weight": "1.6 kg",
+    "color": "Space Gray"
+  },
+  "active": true
+}

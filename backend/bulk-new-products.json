@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Apple MacBook Pro 14-inch",
+    "description": "Powerful laptop with M3 Pro chip, 14-inch Liquid Retina XDR display, and up to 18 hours of battery life. Perfect for professionals and creators.",
+    "price": 1999.99,
+    "quantity": 15,
+    "sku": "APPLE-MBP14-M3PRO-512",
+    "category": "Electronics",
+    "brand": "Apple"
+  },
+  {
+    "name": "Nike Air Max 270 React",
+    "description": "Comfortable running shoes with React foam cushioning and Max Air unit. Designed for everyday comfort and style with breathable mesh upper.",
+    "price": 129.99,
+    "quantity": 45,
+    "sku": "NIKE-AM270R-BLK-10",
+    "category": "Footwear",
+    "brand": "Nike"
+  },
+  {
+    "name": "KitchenAid Stand Mixer 5-Qt",
+    "description": "Professional-grade stand mixer with 5-quart capacity, 10 speeds, and tilt-head design. Includes wire whip, flat beater, and dough hook attachments.",
+    "price": 349.99,
+    "quantity": 20,
+    "sku": "KITAID-SM5QT-RED-001",
+    "category": "Kitchen Appliances",
+    "brand": "KitchenAid"
+  }
+]

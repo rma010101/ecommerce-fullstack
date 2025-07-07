@@ -1,0 +1,159 @@
+[
+  {
+    "name": "MacBook Pro 16-inch M3 Pro",
+    "description": "Revolutionary laptop with M3 Pro chip, featuring unprecedented performance and all-day battery life. Perfect for professionals, creators, and developers.",
+    "price": 2499.99,
+    "quantity": 15,
+    "sku": "APPL-MBP16-M3P-512-SG",
+    "category": "Computers",
+    "brand": "Apple",
+    "specifications": {
+      "processor": "Apple M3 Pro 12-core CPU",
+      "gpu": "18-core GPU",
+      "ram": "18GB unified memory",
+      "storage": "512GB SSD",
+      "display": "16.2-inch Liquid Retina XDR",
+      "resolution": "3456 x 2234",
+      "ports": ["3x Thunderbolt 4", "HDMI", "SDXC", "MagSafe 3"],
+      "color": "Space Gray",
+      "keyboard": "Magic Keyboard with Touch ID"
+    },
+    "tags": ["laptop", "professional", "creator", "development", "video editing"],
+    "weight": 2.15,
+    "dimensions": {
+      "height": 1.68,
+      "width": 35.57,
+      "depth": 24.81
+    },
+    "warranty": {
+      "period": 12,
+      "type": "manufacturer",
+      "coverage": "hardware defects and technical support"
+    }
+  },
+  {
+    "name": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+    "description": "Industry-leading noise canceling with premium sound quality. Perfect for travel, work, and everyday listening with 30-hour battery life.",
+    "price": 399.99,
+    "quantity": 45,
+    "sku": "SONY-WH1000XM5-BLK",
+    "category": "Audio",
+    "brand": "Sony",
+    "specifications": {
+      "driver": "30mm",
+      "frequency": "4Hz-40kHz",
+      "impedance": "48 ohms",
+      "battery": "30 hours",
+      "charging": "USB-C",
+      "bluetooth": "5.2",
+      "codecs": ["LDAC", "AAC", "SBC"],
+      "color": "Black",
+      "weight": "250g"
+    },
+    "tags": ["wireless", "noise canceling", "premium", "travel", "bluetooth"],
+    "weight": 0.25,
+    "dimensions": {
+      "height": 26.0,
+      "width": 19.0,
+      "depth": 8.0
+    },
+    "warranty": {
+      "period": 12,
+      "type": "manufacturer",
+      "coverage": "hardware defects"
+    }
+  },
+  {
+    "name": "Nintendo Switch OLED Console",
+    "description": "Enhanced Nintendo Switch with vibrant 7-inch OLED screen, improved audio, and enhanced kickstand. Play at home or on the go.",
+    "price": 349.99,
+    "quantity": 30,
+    "sku": "NINT-SW-OLED-WHT",
+    "category": "Gaming",
+    "brand": "Nintendo",
+    "specifications": {
+      "display": "7-inch OLED touchscreen",
+      "resolution": "1280 x 720",
+      "storage": "64GB internal",
+      "expandable": "microSD up to 2TB",
+      "battery": "4.5-9 hours",
+      "connectivity": ["Wi-Fi", "Bluetooth 4.1"],
+      "color": "White",
+      "controllers": "Joy-Con (L)/(R)"
+    },
+    "tags": ["gaming", "portable", "console", "family", "entertainment"],
+    "weight": 0.42,
+    "dimensions": {
+      "height": 24.0,
+      "width": 10.2,
+      "depth": 1.39
+    },
+    "warranty": {
+      "period": 12,
+      "type": "manufacturer",
+      "coverage": "hardware defects"
+    }
+  },
+  {
+    "name": "Dyson V15 Detect Absolute Cordless Vacuum",
+    "description": "Advanced cordless vacuum with laser dust detection and powerful suction. Features intelligent cleaning modes and up to 60 minutes runtime.",
+    "price": 749.99,
+    "quantity": 20,
+    "sku": "DYSN-V15-DET-ABS-GLD",
+    "category": "Home Appliances",
+    "brand": "Dyson",
+    "specifications": {
+      "motor": "Dyson Hyperdymium",
+      "suction": "230 AW",
+      "runtime": "up to 60 minutes",
+      "battery": "removable lithium-ion",
+      "filtration": "HEPA",
+      "bin_capacity": "0.76L",
+      "color": "Gold",
+      "weight": "3.1kg"
+    },
+    "tags": ["cordless", "vacuum", "laser", "powerful", "home cleaning"],
+    "weight": 3.1,
+    "dimensions": {
+      "height": 125.0,
+      "width": 25.0,
+      "depth": 25.0
+    },
+    "warranty": {
+      "period": 24,
+      "type": "manufacturer",
+      "coverage": "parts and labor"
+    }
+  },
+  {
+    "name": "Tesla Model Y Performance Wheel Set",
+    "description": "Premium 21-inch Überturbine Wheel set designed specifically for Tesla Model Y Performance. Includes high-performance tires and TPMS sensors.",
+    "price": 4599.99,
+    "quantity": 8,
+    "sku": "TSLA-MY-PERF-21-UBRT",
+    "category": "Automotive",
+    "brand": "Tesla",
+    "specifications": {
+      "size": "21 inches",
+      "width": "9.5J",
+      "bolt_pattern": "5x114.3",
+      "offset": "ET40",
+      "tire_size": "255/35R21",
+      "material": "Forged Aluminum",
+      "finish": "Gloss Black",
+      "includes": ["TPMS sensors", "Center caps", "Lug nuts"]
+    },
+    "tags": ["tesla", "wheels", "performance", "automotive", "upgrade"],
+    "weight": 120.0,
+    "dimensions": {
+      "height": 53.34,
+      "width": 53.34,
+      "depth": 25.0
+    },
+    "warranty": {
+      "period": 48,
+      "type": "manufacturer",
+      "coverage": "manufacturing defects"
+    }
+  }
+]

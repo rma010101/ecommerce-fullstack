@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Smart Fitness Tracker",
+    "description": "Advanced fitness tracker with heart rate monitor, GPS, and 7-day battery life. Track your health and fitness goals.",
+    "price": 149.99,
+    "category": {
+      "name": "Wearables",
+      "description": "Wearable technology and smart devices"
+    },
+    "stockQuantity": 75,
+    "sku": "SFT-2024-003",
+    "brand": "FitTech",
+    "tags": ["fitness", "tracker", "health", "gps", "smartwatch"],
+    "active": true
+  },
+  {
+    "name": "Gourmet Coffee Beans",
+    "description": "Premium single-origin coffee beans from Colombia. Medium roast with notes of chocolate and caramel.",
+    "price": 24.99,
+    "category": {
+      "name": "Food & Beverages",
+      "description": "Food products and beverages"
+    },
+    "stockQuantity": 200,
+    "sku": "GCB-2024-004",
+    "brand": "Mountain Peak Coffee",
+    "tags": ["coffee", "beans", "premium", "colombia", "medium-roast"],
+    "active": true
+  },
+  {
+    "name": "Wireless Phone Charger",
+    "description": "Fast wireless charging pad compatible with all Qi-enabled devices. Sleek design with LED indicator.",
+    "price": 39.99,
+    "category": {
+      "name": "Electronics",
+      "description": "Electronic devices and accessories"
+    },
+    "stockQuantity": 120,
+    "sku": "WPC-2024-005",
+    "brand": "ChargeTech",
+    "tags": ["wireless", "charger", "qi", "phone", "fast-charging"],
+    "active": true
+  },
+  {
+    "name": "Yoga Mat Premium",
+    "description": "Extra thick non-slip yoga mat made from eco-friendly materials. Perfect for all types of yoga and exercise.",
+    "price": 59.99,
+    "category": {
+      "name": "Sports & Fitness",
+      "description": "Sports equipment and fitness accessories"
+    },
+    "stockQuantity": 80,
+    "sku": "YMP-2024-006",
+    "brand": "ZenFit",
+    "tags": ["yoga", "mat", "exercise", "non-slip", "eco-friendly"],
+    "active": true
+  },
+  {
+    "name": "Bluetooth Speaker Portable",
+    "description": "Waterproof portable Bluetooth speaker with 12-hour battery life and 360-degree sound.",
+    "price": 79.99,
+    "category": {
+      "name": "Electronics",
+      "description": "Electronic devices and accessories"
+    },
+    "stockQuantity": 60,
+    "sku": "BSP-2024-007",
+    "brand": "SoundWave",
+    "tags": ["bluetooth", "speaker", "portable", "waterproof", "360-sound"],
+    "active": true
+  }
+]

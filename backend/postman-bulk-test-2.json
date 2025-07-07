@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Samsung Galaxy S24 Ultra",
+    "description": "Flagship Android smartphone with S Pen, 200MP camera, and titanium build for professional photography and productivity.",
+    "price": 1299.99,
+    "quantity": 40,
+    "sku": "SAMSUNG-S24-ULTRA-2025",
+    "category": "Smartphones",
+    "brand": "Samsung"
+  },
+  {
+    "name": "Nintendo Switch OLED",
+    "description": "Portable gaming console with vibrant OLED screen, perfect for gaming on-the-go or docked to your TV.",
+    "price": 349.99,
+    "quantity": 60,
+    "sku": "NINTENDO-SWITCH-OLED-2025",
+    "category": "Gaming",
+    "brand": "Nintendo"
+  }
+]

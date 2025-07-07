@@ -1,0 +1,29 @@
+[
+  {
+    "name": "MacBook Pro M3 16-inch",
+    "description": "Powerful Apple MacBook Pro with M3 Max chip, 16-inch display, perfect for professional workflows and creative tasks.",
+    "price": 2499.99,
+    "quantity": 20,
+    "sku": "MBP-M3-16-1TB-2025",
+    "category": "Laptops",
+    "brand": "Apple"
+  },
+  {
+    "name": "Dell XPS 13 Plus",
+    "description": "Premium ultrabook with Intel 13th gen processor, stunning OLED display, and ultra-portable design.",
+    "price": 1799.99,
+    "quantity": 35,
+    "sku": "DELL-XPS13-PLUS-2025",
+    "category": "Laptops",
+    "brand": "Dell"
+  },
+  {
+    "name": "Sony WH-1000XM5 Headphones",
+    "description": "Industry-leading noise canceling wireless headphones with exceptional sound quality and 30-hour battery.",
+    "price": 399.99,
+    "quantity": 45,
+    "sku": "SONY-WH1000XM5-2025",
+    "category": "Audio",
+    "brand": "Sony"
+  }
+]

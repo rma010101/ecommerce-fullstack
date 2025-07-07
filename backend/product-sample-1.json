@@ -1,0 +1,20 @@
+{
+  "name": "Wireless Bluetooth Headphones",
+  "description": "Premium noise-canceling wireless headphones with 30-hour battery life and superior sound quality. Perfect for music lovers and professionals.",
+  "price": 199.99,
+  "category": {
+    "name": "Electronics",
+    "description": "Electronic devices and accessories"
+  },
+  "stockQuantity": 50,
+  "sku": "WBH-2024-001",
+  "brand": "AudioTech Pro",
+  "tags": ["wireless", "bluetooth", "noise-canceling", "headphones", "audio"],
+  "specifications": {
+    "batteryLife": "30 hours",
+    "connectivity": "Bluetooth 5.0",
+    "weight": "250g",
+    "color": "Matte Black"
+  },
+  "active": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Organic Cotton T-Shirt",
+  "description": "Comfortable 100% organic cotton t-shirt available in multiple colors. Eco-friendly and sustainable fashion choice.",
+  "price": 29.99,
+  "category": {
+    "name": "Clothing",
+    "description": "Apparel and fashion items"
+  },
+  "stockQuantity": 100,
+  "sku": "OCT-2024-002",
+  "brand": "EcoWear",
+  "tags": ["organic", "cotton", "t-shirt", "sustainable", "eco-friendly"],
+  "active": true
+}

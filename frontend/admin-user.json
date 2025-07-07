@@ -1,0 +1,8 @@
+{
+  "username": "admin",
+  "email": "admin@ecommerce.com",
+  "password": "admin123",
+  "firstName": "Admin",
+  "lastName": "User",
+  "role": "ADMIN"
+}

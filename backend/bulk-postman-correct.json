@@ -1,0 +1,29 @@
+[
+  {
+    "name": "MacBook Pro 14-inch",
+    "description": "Apple MacBook Pro with M3 chip, 14-inch Liquid Retina XDR display, 16GB unified memory, and 512GB SSD storage.",
+    "price": 1999.99,
+    "quantity": 25,
+    "sku": "MBP-M3-14-512",
+    "category": "Laptops",
+    "brand": "Apple"
+  },
+  {
+    "name": "iPhone 15 Pro",
+    "description": "Latest iPhone with titanium design and advanced camera system with professional photography capabilities.",
+    "price": 999.99,
+    "quantity": 50,
+    "sku": "IPH-15-PRO-128",
+    "category": "Smartphones",
+    "brand": "Apple"
+  },
+  {
+    "name": "Samsung Galaxy Watch",
+    "description": "Smart fitness tracker with advanced health monitoring, GPS, and long battery life for active users.",
+    "price": 299.99,
+    "quantity": 30,
+    "sku": "SGW-2024-001",
+    "category": "Wearables",
+    "brand": "Samsung"
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "name": "Samsung Galaxy S24 Ultra",
+  "description": "Premium flagship smartphone with S Pen, 200MP camera, and AI-powered features. Features a 6.8-inch Dynamic AMOLED display, Snapdragon 8 Gen 3 processor, and all-day battery life.",
+  "price": 1299.99,
+  "quantity": 25,
+  "sku": "SAMS-S24U-256-BLK",
+  "category": "Electronics",
+  "brand": "Samsung",
+  "specifications": {
+    "display": "6.8-inch Dynamic AMOLED 2X",
+    "storage": "256GB",
+    "ram": "12GB",
+    "camera": "200MP main, 50MP periscope telephoto, 10MP telephoto, 12MP ultrawide",
+    "battery": "5000mAh",
+    "processor": "Snapdragon 8 Gen 3",
+    "color": "Titanium Black",
+    "waterResistance": "IP68",
+    "wirelessCharging": true
+  },
+  "tags": ["flagship", "camera", "5G", "S Pen", "gaming", "photography"],
+  "weight": 233,
+  "dimensions": {
+    "height": 162.3,
+    "width": 79.0,
+    "depth": 8.6
+  },
+  "warranty": {
+    "period": 24,
+    "type": "manufacturer",
+    "coverage": "hardware defects"
+  },
+  "availability": {
+    "inStock": true,
+    "lowStockThreshold": 10,
+    "backorderAllowed": true,
+    "expectedRestockDate": null
+  },
+  "pricing": {
+    "cost": 850.00,
+    "msrp": 1299.99,
+    "discount": 0,
+    "currency": "USD"
+  },
+  "shipping": {
+    "weight": 0.5,
+    "dimensions": {
+      "length": 20,
+      "width": 15,
+      "height": 8
+    },
+    "freeShipping": true,
+    "expeditedAvailable": true
+  },
+  "seo": {
+    "metaTitle": "Samsung Galaxy S24 Ultra - Premium Smartphone with S Pen",
+    "metaDescription": "Experience the ultimate smartphone with Samsung Galaxy S24 Ultra. Features 200MP camera, S Pen, and cutting-edge AI technology.",
+    "keywords": ["samsung", "galaxy", "s24", "ultra", "smartphone", "s pen", "camera"]
+  }
+}

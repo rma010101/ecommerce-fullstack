@@ -1,0 +1,227 @@
+[
+  {
+    "name": "iPhone 15 Pro Max",
+    "description": "Latest flagship smartphone with A17 Pro chip, titanium design, and advanced camera system featuring 5x telephoto zoom.",
+    "price": 1199.99,
+    "quantity": 35,
+    "sku": "APPLE-IP15PM-256-TIT",
+    "category": "Electronics",
+    "brand": "Apple"
+  },
+  {
+    "name": "Samsung 65-inch QLED 4K Smart TV",
+    "description": "Premium smart TV with Quantum Dot technology, HDR10+ support, and built-in streaming apps for ultimate entertainment.",
+    "price": 899.99,
+    "quantity": 18,
+    "sku": "SAMSUNG-QLED65-2024",
+    "category": "Electronics",
+    "brand": "Samsung"
+  },
+  {
+    "name": "Sony WH-1000XM5 Wireless Headphones",
+    "description": "Industry-leading noise canceling headphones with 30-hour battery life and premium sound quality.",
+    "price": 399.99,
+    "quantity": 42,
+    "sku": "SONY-WH1000XM5-BLK",
+    "category": "Electronics",
+    "brand": "Sony"
+  },
+  {
+    "name": "Dell XPS 13 Laptop",
+    "description": "Ultra-portable laptop with Intel Core i7, 16GB RAM, 512GB SSD, and stunning InfinityEdge display.",
+    "price": 1299.99,
+    "quantity": 25,
+    "sku": "DELL-XPS13-I7-512",
+    "category": "Electronics",
+    "brand": "Dell"
+  },
+  {
+    "name": "Nike Air Jordan 1 Retro High",
+    "description": "Classic basketball sneakers with premium leather construction and iconic silhouette in Chicago colorway.",
+    "price": 170.00,
+    "quantity": 60,
+    "sku": "NIKE-AJ1-CHI-SIZE10",
+    "category": "Footwear",
+    "brand": "Nike"
+  },
+  {
+    "name": "Adidas Ultraboost 22 Running Shoes",
+    "description": "High-performance running shoes with responsive Boost midsole and Primeknit upper for ultimate comfort.",
+    "price": 180.00,
+    "quantity": 45,
+    "sku": "ADIDAS-UB22-BLK-11",
+    "category": "Footwear",
+    "brand": "Adidas"
+  },
+  {
+    "name": "Levi's 501 Original Jeans",
+    "description": "Iconic straight-leg jeans made from premium denim with classic five-pocket styling and button fly.",
+    "price": 89.99,
+    "quantity": 120,
+    "sku": "LEVIS-501-BLUE-32X30",
+    "category": "Clothing",
+    "brand": "Levi's"
+  },
+  {
+    "name": "The North Face Venture 2 Jacket",
+    "description": "Waterproof and breathable rain jacket perfect for outdoor adventures with adjustable hood and ventilation.",
+    "price": 99.99,
+    "quantity": 75,
+    "sku": "TNF-VENTURE2-GRY-L",
+    "category": "Clothing",
+    "brand": "The North Face"
+  },
+  {
+    "name": "KitchenAid Artisan Stand Mixer",
+    "description": "Professional-grade 5-quart stand mixer with 10 speeds and tilt-head design, includes three attachments.",
+    "price": 379.99,
+    "quantity": 30,
+    "sku": "KITAID-ARTISAN-RED",
+    "category": "Kitchen Appliances",
+    "brand": "KitchenAid"
+  },
+  {
+    "name": "Instant Pot Duo 7-in-1 Pressure Cooker",
+    "description": "Multi-functional electric pressure cooker that replaces 7 kitchen appliances with smart programming.",
+    "price": 99.95,
+    "quantity": 85,
+    "sku": "INSTANT-DUO-6QT",
+    "category": "Kitchen Appliances",
+    "brand": "Instant Pot"
+  },
+  {
+    "name": "Dyson V15 Detect Cordless Vacuum",
+    "description": "Advanced cordless vacuum with laser dust detection and powerful suction for deep cleaning.",
+    "price": 749.99,
+    "quantity": 22,
+    "sku": "DYSON-V15-DETECT",
+    "category": "Home Appliances",
+    "brand": "Dyson"
+  },
+  {
+    "name": "Ninja Foodi Personal Blender",
+    "description": "Portable blender with extraction blades for smoothies and protein shakes with travel cups included.",
+    "price": 79.99,
+    "quantity": 95,
+    "sku": "NINJA-FOODI-PB",
+    "category": "Kitchen Appliances",
+    "brand": "Ninja"
+  },
+  {
+    "name": "Weber Spirit II E-210 Gas Grill",
+    "description": "Compact 2-burner gas grill perfect for small spaces with porcelain-enameled cast iron cooking grates.",
+    "price": 449.00,
+    "quantity": 15,
+    "sku": "WEBER-SPIRIT-E210",
+    "category": "Outdoor",
+    "brand": "Weber"
+  },
+  {
+    "name": "Coleman Sundome 4-Person Tent",
+    "description": "Easy-setup camping tent with weather-resistant fabric and spacious interior for comfortable outdoor sleeping.",
+    "price": 89.99,
+    "quantity": 38,
+    "sku": "COLEMAN-SUNDOME-4P",
+    "category": "Outdoor",
+    "brand": "Coleman"
+  },
+  {
+    "name": "Yeti Rambler 20oz Tumbler",
+    "description": "Double-wall vacuum insulated stainless steel tumbler that keeps drinks hot or cold for hours.",
+    "price": 35.00,
+    "quantity": 200,
+    "sku": "YETI-RAMBLER-20OZ",
+    "category": "Outdoor",
+    "brand": "Yeti"
+  },
+  {
+    "name": "Fitbit Charge 5 Fitness Tracker",
+    "description": "Advanced fitness tracker with built-in GPS, heart rate monitoring, and stress management tools.",
+    "price": 199.95,
+    "quantity": 55,
+    "sku": "FITBIT-CHARGE5-BLK",
+    "category": "Wearables",
+    "brand": "Fitbit"
+  },
+  {
+    "name": "Apple Watch Series 9",
+    "description": "Most advanced Apple Watch with faster S9 chip, brighter display, and comprehensive health monitoring.",
+    "price": 399.00,
+    "quantity": 40,
+    "sku": "APPLE-WATCH9-45MM",
+    "category": "Wearables",
+    "brand": "Apple"
+  },
+  {
+    "name": "Kindle Paperwhite E-Reader",
+    "description": "Waterproof e-reader with 6.8-inch glare-free display and adjustable warm light for comfortable reading.",
+    "price": 139.99,
+    "quantity": 65,
+    "sku": "AMAZON-KINDLE-PW",
+    "category": "Electronics",
+    "brand": "Amazon"
+  },
+  {
+    "name": "JBL Charge 5 Portable Speaker",
+    "description": "Waterproof Bluetooth speaker with powerful sound, 20-hour battery life, and built-in power bank.",
+    "price": 179.95,
+    "quantity": 70,
+    "sku": "JBL-CHARGE5-BLUE",
+    "category": "Electronics",
+    "brand": "JBL"
+  },
+  {
+    "name": "Patagonia Better Sweater Fleece Jacket",
+    "description": "Sustainable fleece jacket made from recycled polyester with classic full-zip design and comfortable fit.",
+    "price": 139.00,
+    "quantity": 48,
+    "sku": "PATAGONIA-FLEECE-M",
+    "category": "Clothing",
+    "brand": "Patagonia"
+  },
+  {
+    "name": "Stanley Adventure Quencher Tumbler 40oz",
+    "description": "Insulated stainless steel tumbler with handle and straw for all-day hydration and temperature retention.",
+    "price": 44.95,
+    "quantity": 150,
+    "sku": "STANLEY-QUENCH-40OZ",
+    "category": "Outdoor",
+    "brand": "Stanley"
+  },
+  {
+    "name": "Ray-Ban Aviator Classic Sunglasses",
+    "description": "Iconic aviator sunglasses with crystal lenses and gold frame, offering 100% UV protection.",
+    "price": 154.00,
+    "quantity": 80,
+    "sku": "RAYBAN-AVIATOR-GOLD",
+    "category": "Accessories",
+    "brand": "Ray-Ban"
+  },
+  {
+    "name": "Hydro Flask Standard Mouth Water Bottle",
+    "description": "Double-wall vacuum insulated water bottle that keeps beverages cold for 24 hours or hot for 12 hours.",
+    "price": 39.95,
+    "quantity": 125,
+    "sku": "HYDRO-FLASK-21OZ",
+    "category": "Outdoor",
+    "brand": "Hydro Flask"
+  },
+  {
+    "name": "Allbirds Tree Runners Sneakers",
+    "description": "Sustainable sneakers made from eucalyptus tree fiber with comfortable fit and machine-washable design.",
+    "price": 98.00,
+    "quantity": 55,
+    "sku": "ALLBIRDS-TREE-WHT-9",
+    "category": "Footwear",
+    "brand": "Allbirds"
+  },
+  {
+    "name": "Anker PowerCore 10000 Portable Charger",
+    "description": "Compact portable charger with 10000mAh capacity and fast-charging technology for smartphones and tablets.",
+    "price": 29.99,
+    "quantity": 180,
+    "sku": "ANKER-PC10000-BLK",
+    "category": "Electronics",
+    "brand": "Anker"
+  }
+]
