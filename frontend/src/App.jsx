@@ -11,6 +11,9 @@ import Login from './components/Login';
 import Register from './components/Register';
 import UserProfile from './components/UserProfile';
 import AdminDashboard from './components/AdminDashboard';
+import OrderList from './components/OrderList';
+import OrderDetail from './components/OrderDetail';
+import OrderTracking from './components/OrderTracking';
 import ProtectedRoute from './components/ProtectedRoute';
 import './App.css';
 
@@ -42,12 +45,34 @@ function App() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
                 
+                {/* Public Order Tracking */}
+                <Route path="/track" element={<OrderTracking />} />
+                <Route path="/orders/track/:trackingNum" element={<OrderTracking />} />
+                
                 {/* User Protected Routes */}
                 <Route 
                   path="/profile" 
                   element={
                     <ProtectedRoute>
                       <UserProfile />
+                    </ProtectedRoute>
+                  } 
+                />
+                
+                {/* Order Management Routes */}
+                <Route 
+                  path="/orders" 
+                  element={
+                    <ProtectedRoute>
+                      <OrderList />
+                    </ProtectedRoute>
+                  } 
+                />
+                <Route 
+                  path="/orders/:orderId" 
+                  element={
+                    <ProtectedRoute>
+                      <OrderDetail />
                     </ProtectedRoute>
                   } 
                 />

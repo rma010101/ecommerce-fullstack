@@ -65,6 +65,48 @@ export const productAPI = {
   getProductsByCategory: (category) => api.get(`/products/category/${category}`),
 };
 
+// Order API endpoints
+export const orderAPI = {
+  // Create a new order
+  createOrder: (orderData) => api.post('/orders', orderData),
+  
+  // Get current user's orders
+  getMyOrders: (params = {}) => api.get('/orders/my-orders', { params }),
+  
+  // Get order by ID
+  getOrderById: (orderId) => api.get(`/orders/${orderId}`),
+  
+  // Get order by order number
+  getOrderByOrderNumber: (orderNumber) => api.get(`/orders/order-number/${orderNumber}`),
+  
+  // Cancel order
+  cancelOrder: (orderId) => api.put(`/orders/${orderId}/cancel`),
+  
+  // Track order by tracking number (public endpoint)
+  trackOrder: (trackingNumber) => api.get(`/orders/tracking/${trackingNumber}`),
+  
+  // Admin endpoints
+  admin: {
+    // Get all orders
+    getAllOrders: (params = {}) => api.get('/orders/admin/all', { params }),
+    
+    // Get orders by status
+    getOrdersByStatus: (status, params = {}) => api.get(`/orders/admin/status/${status}`, { params }),
+    
+    // Update order status
+    updateOrderStatus: (orderId, status) => api.put(`/orders/admin/${orderId}/status`, { status }),
+    
+    // Add tracking number
+    addTrackingNumber: (orderId, trackingNumber) => api.put(`/orders/admin/${orderId}/tracking`, { trackingNumber }),
+    
+    // Get recent orders
+    getRecentOrders: (days = 30) => api.get('/orders/admin/recent', { params: { days } }),
+    
+    // Get order statistics
+    getOrderStats: () => api.get('/orders/admin/stats'),
+  },
+};
+
 // Error interceptor
 api.interceptors.response.use(
   (response) => response,

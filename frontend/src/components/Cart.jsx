@@ -20,11 +20,17 @@ import {
   ShoppingCartOutlined,
 } from '@mui/icons-material';
 import { useAuth } from '../hooks/useAuth';
+import { useNavigate } from 'react-router-dom';
+import Checkout from './Checkout';
+import OrderSuccess from './OrderSuccess';
 
 const Cart = () => {
   const { isAuthenticated } = useAuth();
+  const navigate = useNavigate();
   const [cartItems, setCartItems] = useState([]);
   const [total, setTotal] = useState(0);
+  const [showCheckout, setShowCheckout] = useState(false);
+  const [orderSuccess, setOrderSuccess] = useState(null);
 
   useEffect(() => {
     // Load cart from localStorage
@@ -74,9 +80,34 @@ const Cart = () => {
       return;
     }
     
-    // TODO: Implement checkout process
-    alert('Checkout functionality coming soon!');
+    setShowCheckout(true);
   };
+
+  const handleOrderSuccess = (order) => {
+    setOrderSuccess(order);
+    setShowCheckout(false);
+    clearCart();
+  };
+
+  const handleBackToCart = () => {
+    setShowCheckout(false);
+  };
+
+  // If order was successful, show success page
+  if (orderSuccess) {
+    return <OrderSuccess order={orderSuccess} />;
+  }
+
+  // If in checkout mode, show checkout component
+  if (showCheckout) {
+    return (
+      <Checkout
+        cartItems={cartItems}
+        onOrderSuccess={handleOrderSuccess}
+        onBack={handleBackToCart}
+      />
+    );
+  }
 
   if (cartItems.length === 0) {
     return (

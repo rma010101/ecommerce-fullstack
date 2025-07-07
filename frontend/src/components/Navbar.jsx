@@ -195,6 +195,15 @@ const Navbar = () => {
               <>
                 <CartIcon onClick={handleCartOpen} />
                 
+                <Button 
+                  color="inherit" 
+                  startIcon={<Dashboard />}
+                  component={Link} 
+                  to="/orders"
+                >
+                  My Orders
+                </Button>
+                
                 {isAdmin() && (
                   <>
                     <Button 
@@ -258,6 +267,9 @@ const Navbar = () => {
                       </Typography>
                     </MenuItem>
                     <MenuItem onClick={handleProfile}>Profile</MenuItem>
+                    <MenuItem component={Link} to="/orders" onClick={handleClose}>
+                      My Orders
+                    </MenuItem>
                     {isAdmin() && (
                       <MenuItem component={Link} to="/admin" onClick={handleClose}>
                         Admin Dashboard
